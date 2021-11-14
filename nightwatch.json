@@ -1,0 +1,45 @@
+{
+    "src_folders": ["test"],
+    "test_workers": {
+        "enabled": true,
+        "workers": "auto"
+    },
+    "page_objects_path": "page-objects",
+    "globals_path": "./globals.js",
+
+    "selenium": {
+        "start_process": true,
+        "server_path": "drivers/selenium-server-standalone-3.141.59.jar",
+        "log_path": "",
+        "port": 9515,
+        "cli_args": {
+          "webdriver.chrome.driver": "node_modules/chromedriver/lib/chromedriver/chromedriver.exe",
+          "webdriver.edge.driver": "./drivers/msedgedriver.exe",
+          "webdriver.gecko.driver" : "./bin/geckodriver"
+        }
+    },
+
+    "test_settings": {
+        "default": {
+            "desiredCapabilities": {
+                "browserName": "chrome",
+                "chromeOptions": {
+                    "args" : ["start-maximized"]
+                },
+                "elementScrollBehavior": 1
+            }
+        },
+        "MicrosoftEdge": {
+            "desiredCapabilities": {
+                "browserName": "MicrosoftEdge",
+                "acceptSslCerts": true
+            }
+        },
+        "firefox": {
+            "desiredCapabilities": {
+              "browserName": "firefox",
+              "marionette": true
+            }
+        }
+    }
+}

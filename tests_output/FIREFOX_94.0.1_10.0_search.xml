@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="2"
+            failures="0"
+            tests="2">
+
+  <testsuite name="search"
+    errors="2" failures="0" hostname="" id="" package="search" skipped="0"
+    tests="2" time="11.62" timestamp="">
+  
+    <testcase name="Alten search test" classname="search" time="8.430" assertions="7">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Alten contact test" classname="search" time="3.186" assertions="8">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <error type="error"><![CDATA[
+    Error
+    at Object.Alten contact test (C:\Users\Jairo Herrero\Desktop\Alten\test\search.js:43:14)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+        TimeoutError: An error occurred while running .click() command on &lt;Element [name=@checkbox]&gt;: element click intercepted; Element &lt;span class=&#34;checkmark&#34;&gt; is not clickable at point (229,937) because another element &lt;div class=&#34;alten2018_sticky_bar&#34;&gt; obscures it
+   {&#34;status&#34;:-1,&#34;value&#34;:{&#34;error&#34;:&#34;element click intercepted&#34;,&#34;message&#34;:&#34;Element &lt;span class=\&#34;checkmark\&#34;&gt; is not clickable at point (229,937) because another element &lt;div class=\&#34;alten2018_sticky_bar\&#34;&gt; obscures it&#34;,&#34;stacktrace&#34;:&#34;&#34;},&#34;code&#34;:&#34;&#34;,&#34;errorStatus&#34;:&#34;&#34;,&#34;error&#34;:&#34;Element &lt;span class=\&#34;checkmark\&#34;&gt; is not clickable at point (229,937) because another element &lt;div class=\&#34;alten2018_sticky_bar\&#34;&gt; obscures it&#34;,&#34;httpStatusCode&#34;:400}
+       at Object.Alten contact test (C:\Users\Jairo Herrero\Desktop\Alten\test\search.js:42:14)
+  TimeoutError: An error occurred while running .moveToElement() command on &lt;Element [name=@submitButton]&gt;: 
+   {&#34;status&#34;:-1,&#34;value&#34;:null,&#34;code&#34;:&#34;&#34;,&#34;errorStatus&#34;:&#34;&#34;,&#34;error&#34;:&#34;An unknown error has occurred.&#34;,&#34;httpStatusCode&#34;:405}
+       at Object.Alten contact test (C:\Users\Jairo Herrero\Desktop\Alten\test\search.js:43:14)
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
