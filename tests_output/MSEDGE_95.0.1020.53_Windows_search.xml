@@ -5,9 +5,9 @@
 
   <testsuite name="search"
     errors="0" failures="0" hostname="" id="" package="search" skipped="0"
-    tests="2" time="10.78" timestamp="">
+    tests="2" time="10.63" timestamp="">
   
-    <testcase name="Alten search test" classname="search" time="7.847" assertions="7">
+    <testcase name="Alten search test" classname="search" time="7.591" assertions="7">
 
     
 
@@ -24,7 +24,7 @@
     
     </testcase>
   
-    <testcase name="Alten contact test" classname="search" time="2.928" assertions="8">
+    <testcase name="Alten contact test" classname="search" time="3.042" assertions="8">
 
     
 

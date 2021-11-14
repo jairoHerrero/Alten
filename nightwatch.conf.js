@@ -14,7 +14,7 @@
           webdriver: {
               start_process: true,
               port: 4444,
-              server_path: require('chromedriver').path,
+              server_path: "./drivers/chromedriver.exe",
           }
       },
       test_workers: {
@@ -44,7 +44,7 @@
           webdriver: {
               start_process: true,
               port: 4446,
-              server_path: require('geckodriver').path
+              server_path: "./drivers/geckodriver.exe"
           }
       },
       edge: {

@@ -1,9 +1,9 @@
-1636898691128	geckodriver	INFO	Listening on 127.0.0.1:4446
-1636898691852	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\JAIROH~1\\AppData\\Local\\Temp\\rust_mozprofilensI5M5"
-1636898692542	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Jairo Herrero\\AppData\\Local\\Temp\\rust_mozprofilensI5M5\\search.json.mozlz4", (void 0)))
-1636898696168	Marionette	INFO	Listening on port 50224
-1636898708322	Marionette	INFO	Stopped listening on port 50224
+1636902790816	geckodriver	INFO	Listening on 127.0.0.1:4446
+1636902791490	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\JAIROH~1\\AppData\\Local\\Temp\\rust_mozprofileD1wWQJ"
+1636902792170	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Jairo Herrero\\AppData\\Local\\Temp\\rust_mozprofileD1wWQJ\\search.json.mozlz4", (void 0)))
+1636902796035	Marionette	INFO	Listening on port 65300
+1636902808600	Marionette	INFO	Stopped listening on port 65300
 
 ###!!! [Parent][MessageChannel] Error: (msgtype=0x39014D,name=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
 
@@ -18,6 +18,21 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 
 
 ###!!! [Parent][MessageChannel] Error: (msgtype=0x39014D,name=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
 
 ###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
@@ -27,19 +42,4 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
